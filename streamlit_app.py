@@ -61,6 +61,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 
 st.subheader("Van Gogh Museum")
+st.image('van-gogh-museum.jpg')
 st.write("Van Gogh Museum ticket [link](https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices)")
 # Read dataframe
 dataframe3 = pd.read_csv(
