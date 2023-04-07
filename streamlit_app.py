@@ -10,6 +10,7 @@ st.subheader("Museums and nearby airbnb housing")
 st.markdown("With a limited budget, the price above €100 /night are excluded")
 
 st.subheader("Rijksmuseum")
+st.image('Rijksmuseum.jpg')
 st.write("Rijksmuseum ticket [link](https://www.rijksmuseum.nl/en/visit/practical-info/opening-hours-and-prices)")
 # Read dataframe
 dataframe1 = pd.read_csv(
